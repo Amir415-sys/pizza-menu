@@ -1,16 +1,42 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍕 Pizza Menu Project
 
-Currently, two official plugins are available:
+یک وب‌اپلیکیشن مدرن و زیبا برای منوی پیتزا، ساخته شده با **React** و **Vite**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📝 درباره پروژه
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+این پروژه یک رابط کاربری جذاب برای مشاهده و سفارش پیتزا است. هدف از ساخت این پروژه، تمرین و پیاده‌سازی مفاهیم پیشرفته React، مدیریت State و طراحی واکنش‌گرا (Responsive) است.
+
+## ✨ ویژگی‌های کلیدی
+
+- 🎨 **طراحی مدرن و واکنش‌گرا:** نمایش بی‌نقص در موبایل، تبلت و دسکتاپ.
+- ⚡ **سرعت بالا:** استفاده از Vite برای تجربه توسعه و بیلد فوق‌العاده سریع.
+- 🍕 **منوی پویا:** نمایش لیست پیتزاها همراه با جزئیات (قیمت، مواد اولیه و...).
+- 🛒 **مدیریت سبد خرید:** امکان اضافه کردن پیتزا به سبد خرید و مشاهده فاکتور. _(اگر این قابلیت رو داری)_
+- 🧩 **کامپوننت‌محور:** کدهای تمیز و قابل استفاده مجدد.
+
+## 🚀 تکنولوژی‌های استفاده شده
+
+- **Frontend:** React.js
+- **Bundler:** Vite
+- **Styling:** CSS / Tailwind CSS _(بسته به چیزی که استفاده کردی تغییر بده)_
+- **Linting:** ESLint
+
+## 🛠️ نحوه اجرای پروژه در سیستم شخصی
+
+برای اجرای این پروژه روی سیستم خودتون، مراحل زیر رو دنبال کنید:
+
+۱. ابتدا مخزن (Repository) را کلون کنید:
+
+```bash
+git clone https://github.com/Amir415-sys/pizza-menu.git
+```
